@@ -39,8 +39,8 @@ const Navbar = () => {
         </nav>
         
         {/* Dark Mode Toggle */}
-        <button className="border border-white rounded ml-4 bg-black hover:bg-gray-700 text-white px-4 py-2 text-sm rounded-md transition">
-          Dark Mode / Light Mode
+        <button className="border border-black rounded ml-4 bg-black hover:bg-gray-700 text-white px-20 py-2 text-3xl rounded-md transition">
+           
         </button>
       </div>
     </header>

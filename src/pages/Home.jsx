@@ -4,14 +4,13 @@ const Home = () => {
 
 
   return (
-    <div className="font-sans bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
-    <hr></hr>
+    <div className="font-oswald bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
       {/* About Section */}
       <section className="py-24 px-6 bg-black text-white">
-  <div className="max-w-6xl mx-auto">
-    <h2 className="text-2xl font-bold text-center mb-16"> <img  className="mx-auto" src='/images/sparkle.png' ></img>About Me</h2>
+        <div className="max-w-6xl mx-auto">
+         <h2 className="text-2xl font-bold text-center mb-16"> <img  className="mx-auto" src='/images/sparkle.png' ></img>About Me</h2>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       {/* Background */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
@@ -120,7 +119,7 @@ const Home = () => {
   </div>
 </section>
 
-            <hr></hr>
+            <hr className='py-0.5  border-t border-gray-700'></hr>
 
       {/* Projects Section */}
       <section className="py-24 px-6 bg-black text-white text-center">
