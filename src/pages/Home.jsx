@@ -1,32 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Home = () => {
+
+
   return (
     <div className="font-sans bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
-      
-      {/* Hero Section */}
-      <section className="min-h-screen bg-black text-white px-6 flex flex-col justify-center items-center">
-        <div className="max-w-4xl text-center">
-            <img
-            src="your-image.jpg"
-            alt="Eddie Jabraouti"
-            className="w-36 h-36 md:w-44 md:h-44 rounded-full mx-auto mb-6 border-4 border-gray-800 shadow-lg object-cover"
-            />
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Eddie Jabraouti</h1>
-            <p className="text-lg text-gray-400 mb-6 max-w-xl mx-auto">
-            Honours Computer Science student at the University of Guelph · Passionate about building ML-powered solutions and impactful data-driven tools.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-            <button className=" border-2 border-black rounded bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-md text-lg transition">
-                Get In Touch
-            </button>
-            <button className="bg-black-800 border border-white rounded hover:bg-gray-700 text-white px-6 py-2 rounded-md text-lg transition">
-                View Projects
-            </button>
-            </div>
-        </div>
-    </section>
-
     <hr></hr>
       {/* About Section */}
       <section className="py-24 px-6 bg-black text-white">
