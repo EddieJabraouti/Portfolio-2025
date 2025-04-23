@@ -15,22 +15,22 @@ const Navbar = () => {
         <nav>
           <ul className="hidden md:flex space-x-6 text-sm font-medium">
             <li>
-              <Link to="/" className="hover:text-emerald-400 transition">Home</Link>
+              <Link to="/" className=" underline hover:text-emerald-400 transition">Home</Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-emerald-400 transition">About Me</Link>
+              <Link to="/about" className=" underline hover:text-emerald-400 transition">About Me</Link>
             </li>
             <li>
-              <Link to="/projects" className="hover:text-emerald-400 transition">Projects</Link>
+              <Link to="/projects" className=" underline hover:text-emerald-400 transition">Projects</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-emerald-400 transition">Contact</Link>
+              <Link to="/contact" className=" underline hover:text-emerald-400 transition">Contact</Link>
             </li>
           </ul>
         </nav>
 
         {/* Dark Mode Toggle (Placeholder) */}
-        <button className="ml-4 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 text-sm rounded-md transition">
+        <button className=" border border-white rounded ml-4 bg-black hover:bg-gray-700 text-white px-4 py-2 text-sm rounded-md transition">
           Dark Mode / Light Mode
         </button>
       </div>
