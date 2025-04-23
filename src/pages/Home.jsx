@@ -17,10 +17,10 @@ const Home = () => {
             Honours Computer Science student at the University of Guelph · Passionate about building ML-powered solutions and impactful data-driven tools.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-md text-lg transition">
+            <button className=" border-2 border-black rounded bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-md text-lg transition">
                 Get In Touch
             </button>
-            <button className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-2 rounded-md text-lg transition">
+            <button className="bg-black-800 border border-white rounded hover:bg-gray-700 text-white px-6 py-2 rounded-md text-lg transition">
                 View Projects
             </button>
             </div>
@@ -31,7 +31,7 @@ const Home = () => {
       {/* About Section */}
       <section className="py-24 px-6 bg-black text-white">
   <div className="max-w-6xl mx-auto">
-    <h2 className="text-4xl font-bold text-center mb-16">About Me</h2>
+    <h2 className="text-4xl font-bold text-center mb-16"> <img src=''></img>About Me</h2>
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
