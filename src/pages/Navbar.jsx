@@ -10,7 +10,9 @@ const Navbar = () => {
         <h2 className="text-lg font-semibold tracking-tight">
           Eddie Jabraouti <span className="text-lg">| Portfolio</span>
         </h2>
-
+        <a href="https://github.com/Mogdi3" target="_blank" rel="noopener noreferrer" >
+          <img src="/images/github-white.png" alt="Github" className="!m-0 !p-0"/>
+        </a>
         {/* Navigation Links */}
         <nav>
           <ul className="hidden md:flex space-x-6 text-sm font-medium">
