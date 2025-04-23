@@ -134,8 +134,8 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black border-t border-gray-800 py-8 px-6 text-center text-sm text-lg dark:text-lg-400">
-        <p>&copy; {new Date().getFullYear()} Eddie Jabraouti · All rights reserved.</p>
+      <footer className="bg-black border-t border-gray-800 py-8 px-6 text-center text-sm text-lg dark:text-lg-400 -mb-10">
+        <p className="pt-0">&copy; {new Date().getFullYear()} Eddie Jabraouti · All rights reserved.</p>
       </footer>
     </div>
   );

@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import AnimatedHero from './pages/AnimatedHero';
 
 import './index.css';
+import BottomNav from './pages/BottonNav';
         // Main homepage
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar /> 
       <AnimatedHero/>
       <Home/>
+      <BottomNav/>
       <Routes>
         <Route path="/about" element={<About />} />  
         <Route path="/projects" element={<Projects />} /> 
