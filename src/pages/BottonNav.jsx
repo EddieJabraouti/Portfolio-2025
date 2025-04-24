@@ -18,6 +18,7 @@ const BottomNav = () => {
             <img src="/images/linkedin.png" alt="LinkedIn" />
           </a>
         </div>
+        <p className="pt-0 text-sm tex-white">&copy; {new Date().getFullYear()} Eddie Jabraouti · All rights reserved.</p>
       </div>
     </header>
   );
