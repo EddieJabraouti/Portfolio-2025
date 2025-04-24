@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const AnimatedHero = () => {
     const headingText = "Hii, I'm Eddie Jabraouti"; 
@@ -46,12 +48,14 @@ const AnimatedHero = () => {
               Honours Computer Science student at the University of Guelph · Passionate about building ML-powered solutions and impactful data-driven tools.
             </p>
             <div className={`flex flex-wrap justify-center gap-4 transition-opacity duration-1000 ${fadeInButtons ? 'opacity-100' : 'opacity-0'}`}>
-              <button className="border-2 border-black rounded bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-md text-lg transition">
+              <Link to="/contact"><button className="border-2 border-black rounded bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-md text-lg transition">
                 Get In Touch
               </button>
-              <button className="bg-black-800 border border-white rounded hover:bg-gray-700 text-white px-6 py-2 rounded-md text-lg transition">
+              </Link>
+              <Link to="/Projects"><button className="bg-black-800 border border-white rounded hover:bg-gray-700 text-white px-6 py-2 rounded-md text-lg transition">
                 View Projects
               </button>
+              </Link>
             </div>
           </div>
         </section>

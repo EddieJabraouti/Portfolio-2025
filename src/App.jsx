@@ -16,9 +16,18 @@ const App = () => {
   return (
     <Router>
       <Navbar /> 
-      <AnimatedHero/>
-      <Home/>
-      <BottomNav/>
+      <Routes>
+        <Route 
+        path='/' 
+        element={
+          <>
+            <AnimatedHero/>
+            <Home/>
+            <BottomNav/>
+          </>
+        }>
+      </Route>
+      </Routes>
       <Routes>
         <Route path="/about" element={<About />} />  
         <Route path="/projects" element={<Projects />} /> 
