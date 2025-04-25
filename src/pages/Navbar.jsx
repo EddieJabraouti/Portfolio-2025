@@ -5,12 +5,10 @@ const Navbar = () => {
   return (
     <header className="bg-black text-white border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
         <h2 className="text-lg font-semibold tracking-tight">
           Eddie Jabraouti <span className="text-lg">| Portfolio</span>
         </h2>
         
-        {/* Social Icons - Adjusted to eliminate spacing */}
         <div className="flex items-center">
           <a href="https://github.com/Mogdi3" target="_blank" rel="noopener noreferrer" className="-ml-60">
             <img src="/images/github-white.png" alt="Github"/>
@@ -20,7 +18,6 @@ const Navbar = () => {
           </a>
         </div>
         
-        {/* Navigation Links */}
         <nav>
           <ul className="hidden md:flex space-x-6 text-sm font-medium -ml-60">
             <li>
@@ -38,7 +35,6 @@ const Navbar = () => {
           </ul>
         </nav>
         
-        {/* Dark Mode Toggle */}
         <button className="border border-black rounded ml-4 bg-black hover:bg-gray-700 text-white px-20 py-2 text-3xl rounded-md transition">
            
         </button>

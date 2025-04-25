@@ -9,13 +9,11 @@ const About = () => {
           className="bg-cover bg-center min-h-screen border border-gray-800 p-10 max-w-8xl mx-auto"
           style={{ backgroundImage: "url('/images/backgroundi.webp')" }}
         >
-          {/* Heading with Sparkle */}
           <div className="text-center mb-8">
             <img className="mx-auto mb-2" src="/images/sparkle.png" alt="Sparkle" />
             <h2 className="text-2xl font-bold">About Me</h2>
           </div>
 
-          {/* Name + Summary */}
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl font-bold mb-6">Eddie Jabraouti</h1>
 
@@ -51,9 +49,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Skills Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* AI & ML */}
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">🧠</span>
@@ -72,7 +68,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Programming */}
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">&lt;/&gt;</span>
@@ -85,7 +80,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Data Science */}
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">📊</span>
@@ -98,7 +92,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Web Dev */}
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">🌐</span>
@@ -111,7 +104,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Version Control */}
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">🔧</span>

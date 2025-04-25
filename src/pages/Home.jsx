@@ -5,7 +5,6 @@ const Home = () => {
 
   return (
     <div className="font-oswald bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
-      {/* About Section */}
       <section className="py-10 px-6 bg-black text-white">
         <div className=" bg-cover bg-center h-screen border border-gray-800 p-10  max-w-8xl mx-auto"
         style={{backgroundImage: "url('/images/backgroundi.webp')"}}>
@@ -13,7 +12,6 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      {/* Background */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">🎓</span>
@@ -25,7 +23,6 @@ const Home = () => {
         </p>
       </div>
 
-      {/* AI & Machine Learning */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">🧠</span>
@@ -44,7 +41,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Programming */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">&lt;/&gt;</span>
@@ -64,7 +60,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Data Science */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">📊</span>
@@ -84,7 +79,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Web Development */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">🌐</span>
@@ -103,7 +97,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Version Control */}
       <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-2xl">🔧</span>
@@ -121,7 +114,6 @@ const Home = () => {
 </section>
 
 
-      {/* Projects Section */}
       <section className="py-24 px-6 bg-black text-white text-center">
         <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
