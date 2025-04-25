@@ -115,6 +115,20 @@ const About = () => {
                 ))}
               </div>
             </div>
+
+            <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🗣️</span>
+                <h3 className="text-xl font-semibold">Leadership</h3>
+              </div>
+              <div className="flex flex-wrap gap-2 text-sm">
+                {["Initiative", "Creativity", "Collaboration","Visionary"].map(tool => (
+                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                ))}
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
