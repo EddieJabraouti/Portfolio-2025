@@ -9,7 +9,7 @@ const Home = () => {
       <section className="py-10 px-6 bg-black text-white">
         <div className=" bg-cover bg-center h-screen border border-gray-800 p-10  max-w-8xl mx-auto"
         style={{backgroundImage: "url('/images/backgroundi.webp')"}}>
-         <h2 className="text-2xl font-bold text-center mb-16"> <img  className="mx-auto" src='/images/sparkle.png' ></img>About Me</h2>
+         <h2 className="text-2xl font-bold text-center mb-16"> <img  className="mx-auto" src='/images/sparkle.png' ></img>Background</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
