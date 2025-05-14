@@ -57,6 +57,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {[
+                  "Deep Learning",
                   "Supervised Learning",
                   "Unsupervised Learning",
                   "Model Evaluation",
@@ -74,7 +75,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold">Programming</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
-                {["Python", "Java", "C", "JavaScript", "React.js", "SQL"].map(lang => (
+                {["Python", "Java", "C", "JavaScript", "TypeScript", "SQL", "R"].map(lang => (
                   <span key={lang} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{lang}</span>
                 ))}
               </div>
@@ -95,10 +96,10 @@ const About = () => {
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">🌐</span>
-                <h3 className="text-xl font-semibold">Web Development</h3>
+                <h3 className="text-xl font-semibold">Web/App Development</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
-                {["React.js", "HTML", "CSS", "Tailwind CSS", "Node.js"].map(skill => (
+                {["JavaScript","TypeScript", "React.js", "HTML", "CSS", "Tailwind CSS", "Node.js", "Next.js", "Node.js"].map(skill => (
                   <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
                 ))}
               </div>
@@ -110,7 +111,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold">Version Control</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
-                {["Git", "GitHub"].map(tool => (
+                {["Git", "GitHub", "GitLab"].map(tool => (
                   <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
                 ))}
               </div>

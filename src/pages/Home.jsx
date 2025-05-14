@@ -103,7 +103,7 @@ const Home = () => {
           <h3 className="text-xl font-semibold">Version Control</h3>
         </div>
         <div className="flex flex-wrap gap-2 text-sm">
-          {["Git", "GitHub"].map(tool => (
+          {["Git", "GitHub", "GitLab"].map(tool => (
             <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
           ))}
         </div>
