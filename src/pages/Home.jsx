@@ -125,7 +125,6 @@ const Home = () => {
 
       </section>
 
-      <hr className="px-0.5 py-0.5 color-gray-800"></hr>
     </div>
   );
 };
