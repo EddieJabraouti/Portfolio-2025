@@ -99,7 +99,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold">Web/App Development</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
-                {["JavaScript","TypeScript", "React.js", "HTML", "CSS", "Tailwind CSS", "Node.js", "Next.js", "Node.js"].map(skill => (
+                {["JavaScript","TypeScript", "React.js", "HTML", "CSS", "Tailwind CSS", "Node.js", "Next.js"].map(skill => (
                   <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
                 ))}
               </div>
