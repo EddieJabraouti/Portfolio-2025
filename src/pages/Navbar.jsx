@@ -16,7 +16,7 @@ const Navbar = () => {
         </h2>
         
         <div className="flex items-center ml-20">
-          <a href="https://github.com/Mogdi3" target="_blank" rel="noopener noreferrer" className="ml-4">
+          <a href="https://github.com/EddieJabraouti" target="_blank" rel="noopener noreferrer" className="ml-4">
             <img src="/images/github-white.png" alt="Github" className="h-16 w-16" /> 
           </a>
           <a href="https://www.linkedin.com/in/eddie-jabraouti-77948a321/" target="_blank" rel="noopener noreferrer" className="ml-4">

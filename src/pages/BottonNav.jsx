@@ -10,7 +10,7 @@ const BottomNav = () => {
         </h2>
         
         <div className="flex items-center space-x-4 ml-20">
-          <a href="https://github.com/Mogdi3" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/EddieJabraouti" target="_blank" rel="noopener noreferrer">
             <img src="/images/github-white.png" alt="Github" className="h-16 w-16" /> 
           </a>
           <a href="https://www.linkedin.com/in/eddie-jabraouti-77948a321/" target="_blank" rel="noopener noreferrer">
