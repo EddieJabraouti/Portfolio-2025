@@ -32,7 +32,7 @@ const ProjectCard = ({ title, imageUrl, descriptions, repoUrl }) => {
             rel="noopener noreferrer"
             className="inline-block mt-5"
           >
-            <button className="px-4 py-2 rounded-md border border-white text-white hover:bg-white hover:text-black transition-colors duration-200">
+            <button className="mb-auto px-4 py-2 rounded-md border border-white text-white hover:bg-white hover:text-black transition-colors duration-200">
               View Repository
             </button>
           </a>

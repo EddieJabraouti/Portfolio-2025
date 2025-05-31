@@ -7,7 +7,7 @@ const About = () => {
       <section className="py-10 px-6 bg-black text-white">
         <div
           className="bg-cover bg-center min-h-screen border border-gray-800 p-10 max-w-8xl mx-auto"
-          style={{ backgroundImage: "url('/images/backgroundi.webp')" }}
+          style={{ backgroundImage: "url('/images/back3.jpg')" }}
         >
           <div className="text-center mb-8">
             <img className="mx-auto mb-2" src="/images/sparkle.png" alt="Sparkle" />
@@ -41,7 +41,7 @@ const About = () => {
               {["AI/ML", "Data Science", "Full Stack"].map(skill => (
                 <span
                   key={skill}
-                  className="bg-gray-800 px-3 py-1 rounded-full text-gray-300"
+                  className="px-3 py-1 border rounded-full border-white text-gray-300"
                 >
                   {skill}
                 </span>
@@ -64,7 +64,7 @@ const About = () => {
                   "Regression & Classification",
                   "Neural Networks",
                 ].map(skill => (
-                  <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
+                  <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
               </div>
             </div>
@@ -76,7 +76,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["Python", "Java", "C", "JavaScript", "TypeScript", "SQL", "R"].map(lang => (
-                  <span key={lang} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{lang}</span>
+                  <span key={lang} className="px-3 py-1 border rounded-full border-white text-gray-300">{lang}</span>
                 ))}
               </div>
             </div>
@@ -88,7 +88,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["Pandas", "NumPy", "Data Cleaning", "EDA", "Scikit-Learn", "Visualization"].map(tool => (
-                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                  <span key={tool} className="px-3 py-1 border rounded-full border-white text-gray-300">{tool}</span>
                 ))}
               </div>
             </div>
@@ -100,7 +100,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["JavaScript","TypeScript", "React.js", "HTML", "CSS", "Tailwind CSS", "Node.js", "Next.js"].map(skill => (
-                  <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
+                  <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
               </div>
             </div>
@@ -112,7 +112,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["Git", "GitHub", "GitLab"].map(tool => (
-                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                  <span key={tool} className="px-3 py-1 border rounded-full border-white text-gray-300">{tool}</span>
                 ))}
               </div>
             </div>
@@ -124,7 +124,7 @@ const About = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["Initiative", "Creativity", "Collaboration","Visionary"].map(tool => (
-                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                  <span key={tool} className="px-3 py-1 border rounded-full border-white text-gray-300">{tool}</span>
                 ))}
               </div>
             </div>

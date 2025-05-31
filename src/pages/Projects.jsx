@@ -12,7 +12,12 @@ const Projects = () => {
           <ProjectCard title="PrimePrep" imageUrl="../images/PrimePrep.png" 
           descriptions={["AI powered platform, where you can design and take part in personalized interviews that are meant simulate real world behavioural and technical questions. Built With Next.Js, React.Js, TypeScript, Tailwind CSS, Firestore, Google Gemeni, shadCn,"]} repoUrl="https://github.com/EddieJabraouti/PrimePrep">
           </ProjectCard>
-          
+          <ProjectCard title="Student Information Management System" imageUrl="../images/project1.jpg" 
+          descriptions={["This C project was a terminal-based application designed to manage student information through a binary file system. The user interacted strictly via the command line interface. Upon execution, the program prompted the user with the option to create a new binary file that would store all student data."]} repoUrl="https://github.com/EddieJabraouti/Student-Information-Management-System">
+          </ProjectCard>
+          <ProjectCard title="Terminal-Based Playlist Manager" imageUrl="../images/project2.webp" 
+          descriptions={["This C project was a terminal-based application that simulated a playlist management system, with a strong emphasis on linked list data structures. The program began by importing an initial playlist from a CSV file, where each song entry included a unique ID and associated notes."]} repoUrl="https://github.com/EddieJabraouti/Terminal-Based-Playlist-Manager">
+          </ProjectCard>
 
         </div>
       </section>

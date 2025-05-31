@@ -8,7 +8,7 @@ const Home = () => {
       <section className="py-6 px-6 bg-black text-white">
         <div
           className="bg-cover bg-center h-screen border border-gray-800 p-10 max-w-8xl mx-auto"
-          style={{ backgroundImage: "url('/images/backgroundi.webp')" }}
+          style={{ backgroundImage: "url('/images/back3.jpg')" }}
         >
           <h2 className="text-2xl font-bold text-center mb-8">
             <img className="mx-auto" src="/images/sparkle.png" alt="sparkle" />
@@ -42,7 +42,7 @@ const Home = () => {
                   "Regression & Classification",
                   "Neural Networks"
                 ].map(skill => (
-                  <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
+                  <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
               </div>
             </div>
@@ -61,7 +61,7 @@ const Home = () => {
                   "React.js",
                   "SQL"
                 ].map(lang => (
-                  <span key={lang} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{lang}</span>
+                  <span key={lang} className="px-3 py-1 border rounded-full border-white text-gray-300">{lang}</span>
                 ))}
               </div>
             </div>
@@ -80,7 +80,7 @@ const Home = () => {
                   "Scikit-Learn",
                   "Visualization"
                 ].map(tool => (
-                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                  <span key={tool} className="px-3 py-1 border rounded-full border-white text-gray-300">{tool}</span>
                 ))}
               </div>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
                   "Node.js",
                   "Next.js"
                 ].map(skill => (
-                  <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{skill}</span>
+                  <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
               </div>
             </div>
@@ -113,7 +113,7 @@ const Home = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-sm">
                 {["Git", "GitHub", "GitLab"].map(tool => (
-                  <span key={tool} className="bg-gray-800 px-3 py-1 rounded-full text-gray-300">{tool}</span>
+                  <span key={tool} className="px-3 py-1 border rounded-full border-white text-gray-300">{tool}</span>
                 ))}
               </div>
             </div>
@@ -125,7 +125,7 @@ const Home = () => {
       <section className="py-12 px-6 bg-black text-white text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-2">Featured Projects:</h2>
-          <div className="flex flex-row gap-x-10 justify-center">
+          <div className="flex flex-row gap-x-10">
             <ProjectCard
               title="PrimePrep"
               imageUrl="../images/PrimePrep.png"
@@ -134,6 +134,13 @@ const Home = () => {
               ]}
               repoUrl="https://github.com/EddieJabraouti/PrimePrep"
             />
+            <ProjectCard title="Student Information Management System" imageUrl="../images/project1.jpg" 
+          descriptions={["This C project was a terminal-based application designed to manage student information through a binary file system. The user interacted strictly via the command line interface. Upon execution, the program prompted the user with the option to create a new binary file that would store all student data."]} repoUrl="https://github.com/EddieJabraouti/Student-Information-Management-System">
+          </ProjectCard>
+          <ProjectCard title="Terminal-Based Playlist Manager" imageUrl="../images/project2.webp" 
+          descriptions={["This C project was a terminal-based application that simulated a playlist management system, with a strong emphasis on linked list data structures. The program began by importing an initial playlist from a CSV file, where each song entry included a unique ID and associated notes."]} repoUrl="https://github.com/EddieJabraouti/Terminal-Based-Playlist-Manager">
+          </ProjectCard>
+          
           </div>
         </div>
       </section>
