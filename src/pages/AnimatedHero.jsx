@@ -36,8 +36,8 @@ const AnimatedHero = () => {
         <section className="min-h-screen bg-black text-white px-6 flex flex-col justify-center items-center">
           <div className="max-w-4xl text-center">
             <img
-              src="your-image.jpg"
-              className="w-36 h-36 md:w-44 md:h-44 rounded-full mx-auto mb-6 border-4 border-gray-800 shadow-lg object-cover"
+              src="/images/grad.png"
+              className="w-40 h-40 md:w-44 md:h-44 rounded-full mx-auto mb-6 border-4 border-gray-800 shadow-lg object-cover"
             />
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               {displayedText}
