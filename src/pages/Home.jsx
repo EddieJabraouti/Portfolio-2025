@@ -7,7 +7,7 @@ const Home = () => {
       
       <section className="py-6 px-6 bg-black text-white">
         <div
-          className="bg-cover bg-center h-screen border border-gray-800 p-4 sm:p-10 max-w-8xl mx-auto"
+          className="bg-cover bg-center min-h-screen border border-gray-800 p-4 sm:p-10 max-w-8xl mx-auto overflow-hidden"
           style={{ backgroundImage: "url('/images/back3.jpg')" }}
         >
           <h2 className="text-xl sm:text-2xl font-bold text-center mb-6 sm:mb-8">
@@ -15,14 +15,14 @@ const Home = () => {
             Background
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pb-8">
 
             <div className="bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-xl sm:text-2xl">🎓</span>
                 <h3 className="text-lg sm:text-xl font-semibold">Background</h3>
               </div>
-              <p className="text-xs sm:text-sm text-gray-300">
+              <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
                 I'm an Honours Computer Science student at the University of Guelph with a passion for Machine Learning and Data Science.
                 I enjoy creating meaningful AI models and real-world solutions through code and analytics.
               </p>
