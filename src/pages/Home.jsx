@@ -39,7 +39,8 @@ const Home = () => {
                   "Unsupervised Learning",
                   "Model Evaluation",
                   "Regression & Classification",
-                  "Neural Networks"
+                  "Neural Networks",
+                  "PyTorch"
                 ].map(skill => (
                   <span key={skill} className="px-2 sm:px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
@@ -124,7 +125,13 @@ const Home = () => {
       <section className="py-12 px-4 sm:px-6 bg-black text-white text-center">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">Featured Projects:</h2>
-          <div className="flex flex-col lg:flex-row gap-6 lg:gap-x-10">
+          <div className="grid gap-6 lg:grid-cols-3 ">
+          <ProjectCard
+              title="Generative Pre-Trained Transformer(GPT)"
+              imageUrl="../images/transformer.png"
+              descriptions={["A minature generative pre-trained transformer using the revolutional concepts of self attention explained in the paper Attention is all you need"]}
+              repoUrl="https://github.com/EddieJabraouti/Transformer"
+          />
             <ProjectCard
               title="PrimePrep"
               imageUrl="../images/PrimePrep.png"
@@ -133,6 +140,12 @@ const Home = () => {
               ]}
               repoUrl="https://github.com/EddieJabraouti/PrimePrep"
             />
+            <ProjectCard
+            title="Solubility Prediction using Molecular Descriptors"
+            imageUrl="../images/lr.jpg"
+            descriptions={[" Linear Regression and Random Forest models were trained on molecular descriptor data to predict aqueous solubility (logS). Features included MolLogP, MolWt, NumRotatableBonds, and AromaticProportion. The goal was to estimate solubility based on molecular structure."]}
+            repoUrl="https://github.com/EddieJabraouti/Linear-Regression-Comparison-with-Random-Forest"
+          />
             <ProjectCard 
               title="Student Information Management System" 
               imageUrl="../images/project1.jpg" 
@@ -145,6 +158,7 @@ const Home = () => {
               descriptions={["This C project was a terminal-based application that simulated a playlist management system, with a strong emphasis on linked list data structures. The program began by importing an initial playlist from a CSV file, where each song entry included a unique ID and associated notes."]} 
               repoUrl="https://github.com/EddieJabraouti/Terminal-Based-Playlist-Manager"
             />
+            
           </div>
         </div>
       </section>

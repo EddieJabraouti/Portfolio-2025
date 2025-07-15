@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ title, imageUrl, descriptions, repoUrl }) => {
   return (
-      <div className=" flex-col mt-10 rounded-lg border border-grey-800 bg-black text-white shadow-md hover:shadow-xl transition-shadow duration-300 p-6 max-w-md">
+      <div className=" flex-row mt-10 rounded-lg border border-grey-800 bg-black text-white shadow-md hover:shadow-xl transition-shadow duration-300 p-6 max-w-md">
         {imageUrl && (
           <div className="project-image">
             <img

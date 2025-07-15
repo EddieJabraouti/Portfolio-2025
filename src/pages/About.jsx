@@ -63,6 +63,7 @@ const About = () => {
                   "Model Evaluation",
                   "Regression & Classification",
                   "Neural Networks",
+                  "PyTorch"
                 ].map(skill => (
                   <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
