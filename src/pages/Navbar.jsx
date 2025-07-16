@@ -34,16 +34,16 @@ const Navbar = () => {
           <nav className="flex-1 flex justify-center">
             <ul className="flex space-x-6 text-sm font-medium">
               <li>
-                <Link to="/" className="underline hover:text-emerald-400 transition">Home</Link>
+                <Link to="/" className="underline hover:text-gray-400 transition">Home</Link>
               </li>
               <li>
-                <Link to="/about" className="underline hover:text-emerald-400 transition">About Me</Link>
+                <Link to="/about" className="underline hover:text-gray-400 transition">About Me</Link>
               </li>
               <li>
-                <Link to="/projects" className="underline hover:text-emerald-400 transition">Projects</Link>
+                <Link to="/projects" className="underline hover:text-gray-400 transition">Projects</Link>
               </li>
               <li>
-                <Link to="/contact" className="underline hover:text-emerald-400 transition">Contact</Link>
+                <Link to="/contact" className="underline hover:text-gray-400 transition">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -63,16 +63,16 @@ const Navbar = () => {
             <nav className="pt-4">
               <ul className="space-y-4 text-sm font-medium">
                 <li>
-                  <Link to="/" className="block hover:text-emerald-400 transition" onClick={toggleMobileMenu}>Home</Link>
+                  <Link to="/" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Home</Link>
                 </li>
                 <li>
-                  <Link to="/about" className="block hover:text-emerald-400 transition" onClick={toggleMobileMenu}>About Me</Link>
+                  <Link to="/about" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>About Me</Link>
                 </li>
                 <li>
-                  <Link to="/projects" className="block hover:text-emerald-400 transition" onClick={toggleMobileMenu}>Projects</Link>
+                  <Link to="/projects" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Projects</Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="block hover:text-emerald-400 transition" onClick={toggleMobileMenu}>Contact</Link>
+                  <Link to="/contact" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Contact</Link>
                 </li>
               </ul>
               
