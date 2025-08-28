@@ -132,6 +132,12 @@ const Home = () => {
               descriptions={["A minature generative pre-trained transformer using the revolutional concepts of self attention explained in the paper Attention is all you need"]}
               repoUrl="https://github.com/EddieJabraouti/Transformer"
           />
+          <ProjectCard 
+            title="Car Center AI Agent" 
+            imageUrl="../images/voice.webp"
+            descriptions={["Developed a React.js and Python web app with SQLite3, integrating LiveKit and OpenAI APIs to create a conversational AI agent that validates, stores, and recalls car details via voice and on-screen responses."]} 
+            repoUrl="https://github.com/EddieJabraouti/FullStack-AI-Agent-"
+          />
             <ProjectCard
               title="PrimePrep"
               imageUrl="../images/PrimePrep.png"
