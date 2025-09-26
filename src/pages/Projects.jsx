@@ -14,6 +14,12 @@ const Projects = () => {
           
           <div className="grid gap-6 lg:grid-cols-3">
           <ProjectCard
+            title="Clarity"
+            imageUrl="../images/doc.webp"
+            descriptions={["I built Clarity, a full-stack project for pneumonia detection using medical imagery. At its core is a customized ResNet-18 model that reached ~90% validation accuracy with augmentation and Adam optimization. The system is containerized with Docker, deployed on RunPod serverless, and paired with a React + Tailwind frontend. I also integrated the OpenAI API for reasoning and summaries. This was purely a research project for fun — not medical advice."]}
+            repoUrl="https://github.com/EddieJabraouti/Pneumonia-Classifier"
+          />
+          <ProjectCard
               title="Generative Pre-Trained Transformer(GPT)"
               imageUrl="../images/transformer.png"
               descriptions={["A minature generative pre-trained transformer using the revolutional concepts of self attention explained in the paper Attention is all you need"]}
