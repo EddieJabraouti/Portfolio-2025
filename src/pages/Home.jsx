@@ -23,8 +23,7 @@ const Home = () => {
                 <h3 className="text-lg sm:text-xl font-semibold">Background</h3>
               </div>
               <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
-                I'm an Honours Computer Science student at the University of Guelph with a passion for Machine Learning and Data Science.
-                I enjoy creating meaningful AI models and real-world solutions through code and analytics.
+                Honours Computer Science & Math student at the University of Guelph with a passion for AI/ML Research & its practical applications in Biomedical Engineering, Automation pipelines, and Software.
               </p>
             </div>
 
@@ -34,13 +33,11 @@ const Home = () => {
                 <h3 className="text-lg sm:text-xl font-semibold">AI & Machine Learning</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                {[
-                  "Supervised Learning",
-                  "Unsupervised Learning",
-                  "Model Evaluation",
-                  "Regression & Classification",
-                  "Neural Networks",
-                  "PyTorch"
+                {["Physics Informed NN's",
+                  "Reinforcement Learning",
+                  "Probabilistic Diffusion & Denoising",
+                  "Biomedical Segmentation & Classification",
+                  "Large Language Models",
                 ].map(skill => (
                   <span key={skill} className="px-2 sm:px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}
@@ -50,16 +47,17 @@ const Home = () => {
             <div className="bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-xl sm:text-2xl">&lt;/&gt;</span>
-                <h3 className="text-lg sm:text-xl font-semibold">Programming</h3>
+                <h3 className="text-lg sm:text-xl font-semibold">Languages</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
                 {[
                   "Python",
                   "Java",
                   "C",
+                  "R/R Studio",
+                  "SQL",
                   "JavaScript",
-                  "React.js",
-                  "SQL"
+                  "TypeScript"
                 ].map(lang => (
                   <span key={lang} className="px-2 sm:px-3 py-1 border rounded-full border-white text-gray-300">{lang}</span>
                 ))}
@@ -88,18 +86,17 @@ const Home = () => {
             <div className="bg-[#111] p-4 sm:p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-xl sm:text-2xl">🌐</span>
-                <h3 className="text-lg sm:text-xl font-semibold">Web Development</h3>
+                <h3 className="text-lg sm:text-xl font-semibold">Full Stack</h3>
               </div>
               <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
                 {[
-                  "JavaScript",
-                  "TypeScript",
-                  "React.js",
-                  "HTML",
-                  "CSS",
-                  "Tailwind CSS",
-                  "Node.js",
-                  "Next.js"
+                  "JS/TS",
+                  "React",
+                  "Next.JS",
+                  "Node",
+                  "Fast API",
+                  "Flask",
+                  "Docker"
                 ].map(skill => (
                   <span key={skill} className="px-2 sm:px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
                 ))}

@@ -50,25 +50,7 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">🧠</span>
-                <h3 className="text-xl font-semibold">AI & Machine Learning</h3>
-              </div>
-              <div className="flex flex-wrap gap-2 text-sm">
-                {[
-                  "Deep Learning",
-                  "Supervised Learning",
-                  "Unsupervised Learning",
-                  "Model Evaluation",
-                  "Regression & Classification",
-                  "Neural Networks",
-                  "PyTorch"
-                ].map(skill => (
-                  <span key={skill} className="px-3 py-1 border rounded-full border-white text-gray-300">{skill}</span>
-                ))}
-              </div>
-            </div>
+            
 
             <div className="bg-[#111] p-6 rounded-xl border border-gray-800">
               <div className="flex items-center gap-3 mb-4">

@@ -32,12 +32,9 @@ const Navbar = () => {
           </h2>
           
           <nav className="flex-1 flex justify-center">
-            <ul className="flex space-x-6 text-sm font-medium">
+            <ul className="flex w-full max-w-md space-x-20 text-sm font-medium">
               <li>
                 <Link to="/" className="underline hover:text-gray-400 transition">Home</Link>
-              </li>
-              <li>
-                <Link to="/about" className="underline hover:text-gray-400 transition">About Me</Link>
               </li>
               <li>
                 <Link to="/projects" className="underline hover:text-gray-400 transition">Projects</Link>
@@ -64,9 +61,6 @@ const Navbar = () => {
               <ul className="space-y-4 text-sm font-medium">
                 <li>
                   <Link to="/" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Home</Link>
-                </li>
-                <li>
-                  <Link to="/about" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>About Me</Link>
                 </li>
                 <li>
                   <Link to="/projects" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Projects</Link>
