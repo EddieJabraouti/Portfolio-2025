@@ -44,7 +44,7 @@ const AnimatedHero = () => {
               {showCursor && <span className="animate-blink">|</span>}
             </h1>
             <p className={`text-lg text-gray-400 mb-6 max-w-xl mx-auto transition-opacity duration-1000 ${fadeInDesc ? 'opacity-100' : 'opacity-0'}`}>
-              Honours Computer Science student at the University of Guelph · Passionate about building ML-powered solutions and impactful data-driven tools.
+              Honours CS & Math student at the University of Guelph · Focused on DL/ML in Biomedical, BCI, Agentic research & software development. 
             </p>
             <div className={`flex flex-wrap justify-center gap-4 transition-opacity duration-1000 ${fadeInButtons ? 'opacity-100' : 'opacity-0'}`}>
               <Link to="/contact"><button className="border-2 border-black rounded bg-white hover:bg-gray-400 text-black px-6 py-2 rounded-md text-lg transition">
