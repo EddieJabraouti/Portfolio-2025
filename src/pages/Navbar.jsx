@@ -12,6 +12,7 @@ const Navbar = () => {
     <header className="bg-black text-white border-b border-gray-800 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         
+        {/* Mobile Header */}
         <div className="flex justify-between items-center md:hidden">
           <h2 className="text-base font-semibold tracking-tight">
             Eddie Jabraouti <span className="text-base">| Portfolio</span>
@@ -26,47 +27,91 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="hidden md:flex justify-between items-center">
+        {/* Desktop Header */}
+        <div className="hidden md:flex items-center relative">
+          
+          {/* LEFT: NAME */}
           <h2 className="text-lg font-semibold tracking-tight">
             Eddie Jabraouti <span className="text-lg">| Portfolio</span>
           </h2>
           
-          <nav className="flex-1 flex justify-center">
-            <ul className="flex w-full max-w-md space-x-20 text-sm font-medium">
+          {/* CENTER: NAV (ABSOLUTELY CENTERED) */}
+          <nav className="absolute left-1/2 transform -translate-x-1/2">
+            <ul className="flex space-x-20 text-sm font-medium">
               <li>
-                <Link to="/" className="underline hover:text-gray-400 transition">Home</Link>
+                <Link to="/" className="underline underline-offset-4 hover:text-gray-400 transition">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/projects" className="underline hover:text-gray-400 transition">Projects</Link>
+                <Link to="/projects" className="underline underline-offset-4 hover:text-gray-400 transition">
+                  Projects
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className="underline hover:text-gray-400 transition">Contact</Link>
+                <Link to="/experience" className="underline underline-offset-4 hover:text-gray-400 transition">
+                  Experience
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="underline underline-offset-4 hover:text-gray-400 transition">
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>
 
-          <div className="flex items-center space-x-4">
-            <a href="https://github.com/EddieJabraouti" target="_blank" rel="noopener noreferrer">
-              <img src="/images/github-white.png" alt="Github" className="h-8 w-8 hover:opacity-80 transition-opacity" />
+          {/* RIGHT: SOCIAL ICONS */}
+          <div className="ml-auto flex items-center space-x-4">
+            <a
+              href="https://github.com/EddieJabraouti"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/github-white.png"
+                alt="Github"
+                className="h-8 w-8 hover:opacity-80 transition-opacity"
+              />
             </a>
-            <a href="https://www.linkedin.com/in/eddie-jabraouti-77948a321/" target="_blank" rel="noopener noreferrer">
-              <img src="/images/linkedin.png" alt="LinkedIn" className="h-8 w-8 hover:opacity-80 transition-opacity" />
+            <a
+              href="https://www.linkedin.com/in/eddie-jabraouti-77948a321/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/linkedin.png"
+                alt="LinkedIn"
+                className="h-8 w-8 hover:opacity-80 transition-opacity"
+              />
             </a>
           </div>
         </div>
 
+        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-800">
             <nav className="pt-4">
               <ul className="space-y-4 text-sm font-medium">
                 <li>
-                  <Link to="/" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Home</Link>
+                  <Link to="/" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/projects" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Projects</Link>
+                  <Link to="/projects" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>
+                    Projects
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>Contact</Link>
+                  <Link to="/experience" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>
+                    Experience
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="block hover:text-gray-400 transition" onClick={toggleMobileMenu}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
               

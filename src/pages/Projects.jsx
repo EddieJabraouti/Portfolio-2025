@@ -20,6 +20,37 @@ const Projects = () => {
             repoUrl="https://github.com/EddieJabraouti/Pneumonia-Classifier"
           />
           <ProjectCard
+              title="U-Net Heart Segmentation"
+              imageUrl="../images/heartsegmentation.png"
+              tags={["Biomedical", "Segmentation", "Representation Learning"]}
+              descriptions={[
+                "Implemented a U-Net architecture for cardiac structure segmentation, focusing on encoder–decoder design, skip connections, and loss functions for class imbalance in medical imaging."
+              ]}
+              repoUrl="https://github.com/EddieJabraouti/U-Net-heart-segmentation"
+            />
+
+            <ProjectCard
+              title="Dev-Tools AI Agent"
+              imageUrl="../images/agent.webp"
+              tags={["Agentic AI", "LLMs", "Systems"]}
+              descriptions={[
+                "Modular agentic AI system for developer workflows, emphasizing tool abstraction, structured reasoning, and orchestration of LLM-driven actions."
+              ]}
+              repoUrl="https://github.com/EddieJabraouti/Dev-Tools-AI-Agent"
+            />
+
+            <ProjectCard
+              title="Autoencoder Representation Learning"
+              imageUrl="../images/autoencoder.webp"
+              tags={["Representation Learning", "Unsupervised Learning", "Deep Learning"]}
+              descriptions={[
+              "Explored convolutional autoencoders for unsupervised representation learning on image data. Focused on encoder–decoder architecture design, latent space compression, and reconstruction loss behavior.",
+              "Analyzed reconstruction quality and latent feature representations to understand how information is preserved and compressed across the network."
+              ]}
+              repoUrl="https://github.com/EddieJabraouti/Autoencoder-"
+              />
+            
+          <ProjectCard
               title="Generative Pre-Trained Transformer(GPT)"
               imageUrl="../images/transformer.png"
               descriptions={["A minature generative pre-trained transformer using the revolutional concepts of self attention explained in the paper Attention is all you need"]}
